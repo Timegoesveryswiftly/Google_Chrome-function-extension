@@ -1,0 +1,17 @@
+{
+    "name": "My First Extension",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "今いるpageの背景色を変化！",
+
+    "permissions": [
+      "tabs", "http://*/*"
+    ],
+
+    "browser_action": {
+      "default_icon": "ea1.png",
+      "default_title": "My Second Extention",
+      "default_popup": "popup.html"
+    }
+}
