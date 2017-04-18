@@ -1,0 +1,22 @@
+{
+    "name": "My Fourth Extension",
+    "version": "0.1",
+    "manifest_version": 4,
+
+    "description": "今いるpageの背景色変化！ with option page",
+
+    "permissions": [
+      "tabs", "http://*/*"
+    ],
+
+    "options_page": "options.html",
+
+    "background": {
+      "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+      "default_icon": "ea2.png",
+      "default_title": "My Fourth Extention"
+    }
+}
