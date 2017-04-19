@@ -1,0 +1,19 @@
+{
+    "name": "My Seventh Extension",
+    "version": "0.1",
+    "manifest_version": 7,
+
+    "description": "Context menu wikipedia search",
+
+    "permissions": [
+      "tabs", "http://*/*", "contextMenus"
+    ],
+
+    "icons": {
+      "16": "icon16.png"
+    },
+
+    "background": {
+      "scripts": ["background.js"]
+    }
+}
