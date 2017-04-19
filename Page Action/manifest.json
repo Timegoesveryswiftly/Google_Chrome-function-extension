@@ -1,0 +1,20 @@
+{
+    "name": "My Fifth Extension",
+    "version": "0.1",
+    "manifest_version": 5,
+
+    "description": "背景色を変える",
+
+    "permissions": [
+      "tabs", "http://*/*"
+    ],
+
+    "background": {
+      "scripts": ["background.js"]
+    },
+
+    "page_action": {
+      "default_icon": "ea2.png",
+      "default_title": "My Fifth Extention"
+    }
+}
